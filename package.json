@@ -1,24 +1,14 @@
 {
   "name": "create-expressapi-boilerplate",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "create-expressapi-boilerplate",
   "main": "server.js",
   "bin": {
     "create-expressapi-boilerplate": "./index.js"
   },
   "files": [
-    "utils",
-    "config",
-    "controllers",
-    "helpers",
-    "middlewares",
-    "models",
-    "routes",
-    "app.js",
-    "index.js",
-    "package.json",
-    "package-lock.json",
-    "server.js"
+    "template"
+    
     
   ],
   "scripts": {
