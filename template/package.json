@@ -1,11 +1,26 @@
 {
   "name": "create-expressapi-boilerplate",
-  "version": "1.0.0",
+  "version": "1.0.6",
   "description": "create-expressapi-boilerplate",
   "main": "server.js",
   "bin": {
     "create-expressapi-boilerplate": "./index.js"
   },
+  "files": [
+    "utils",
+    "config",
+    "controllers",
+    "helpers",
+    "middlewares",
+    "models",
+    "routes",
+    "app.js",
+    "index.js",
+    "package.json",
+    "package-lock.json",
+    "server.js"
+    
+  ],
   "scripts": {
     "start": "nodemon start",
     "test": "echo \"Error: no test specified\" && exit 1",
