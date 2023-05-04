@@ -1,4 +1,5 @@
 
+![thumbnail](https://user-images.githubusercontent.com/69359301/236298487-66c155d8-ec60-417c-804d-348255f9c4da.png)
 
 # create-expressapi-boilerplate is a boilerplate to launch your express project in seconds with a built-in authentication system.
 
