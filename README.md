@@ -22,10 +22,9 @@ cd my-app
 
 then open your code editor in my case is visual studio code:
 
-````
+```
 code .
 ```
-
 
 after opening vs code, your starter template will look like this:
 
@@ -37,7 +36,6 @@ Now you have to install the necessary dependencies by opening the integrated ter
 npm i
 ```
 
-
 this is the expected result:
 
 then the project structure will look like this:
@@ -46,8 +44,7 @@ Fourth Step:
 
 now in your root project folder create a file called "config.env" and paste into it this code
 
-````
-
+```
 MONGODB_URI = mongodb+srv://username:password@cluster0.test.mongodb.net/test
 
 SECRET_JWT = Gju!hWLSLPIN6%$5q1P1K7\*3qGoP6hdhhdehdhdhhdndbbebgygddhdehd
@@ -55,7 +52,6 @@ JWT_EXPIRES_IN = 1d
 JWT_COOKIE_EXPIRES_IN = 1
 
 ```
-
 
 the only variables you gonna change are MONGODB_URI and SECRET_JWT.
 
@@ -72,11 +68,8 @@ Final Step:
 enter this command
 
 ```
-
 npm start
-
 ```
-
 
 expected result:
 
@@ -85,6 +78,3 @@ go to Postman to test your endpoints
 login: http://localhost:5000/api/v1/users/login
 
 signup: http://localhost:5000/api/v1/users/signup
-
-
-```
