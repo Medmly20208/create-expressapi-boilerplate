@@ -28,6 +28,7 @@ projectPackageJson.description = "";
 projectPackageJson.main = "";
 projectPackageJson.bin = {};
 projectPackageJson.files = [];
+projectPackageJson.repository = "";
 
 fs.writeFileSync(
   path.join(projectDir, "package.json"),

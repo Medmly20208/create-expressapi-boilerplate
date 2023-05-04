@@ -1,6 +1,10 @@
 {
   "name": "create-expressapi-boilerplate",
-  "version": "1.0.22",
+  "version": "1.0.24",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Medmly20208/create-expressapi-boilerplate"
+  },
   "description": "create-expressapi-boilerplate",
   "main": "server.js",
   "bin": {
