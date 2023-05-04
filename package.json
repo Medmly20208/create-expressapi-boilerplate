@@ -1,22 +1,31 @@
 {
   "name": "create-expressapi-boilerplate",
-  "version": "1.0.7",
+  "version": "1.0.22",
   "description": "create-expressapi-boilerplate",
   "main": "server.js",
   "bin": {
     "create-expressapi-boilerplate": "./index.js"
   },
   "files": [
-    "template"
-    
-    
+    ".gitignore",
+    "utils",
+    "config",
+    "controllers",
+    "helpers",
+    "middlewares",
+    "models",
+    "routes",
+    "app.js",
+    "index.js",
+    "package.json",
+    "package-lock.json",
+    "server.js"  
   ],
   "scripts": {
-    "start": "nodemon start",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start:prod": "set NODE_ENV=production &&  nodemon start"
+    "start": "nodemon start server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["authentication","express","api","node","backend","login","signup"],
   "author": "",
   "license": "ISC",
   "dependencies": {
