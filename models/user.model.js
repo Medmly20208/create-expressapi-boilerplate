@@ -43,7 +43,7 @@ user.statics.login = async function (email, password) {
   return user;
 };
 
-user.statics.signup = async function (email, password, type) {
+user.statics.signup = async function (email, password,) {
   const user = await this.findOne({ email });
 
   if (user) {
@@ -53,7 +53,7 @@ user.statics.signup = async function (email, password, type) {
   const salt = await bcrypt.genSalt(10);
   const hashedPassword = await bcrypt.hash(password, salt);
 
-  const newUser = await this.create({ email, password: hashedPassword, type });
+  const newUser = await this.create({ email, password: hashedPassword,  });
 
   return newUser;
 };
